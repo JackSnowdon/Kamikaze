@@ -1,0 +1,58 @@
+@import url('https://fonts.googleapis.com/css?family=Cabin:400,600&display=swap');
+.bg {
+    height: 100%;
+    background-color: #220703;
+    color: #f8f9fa;
+    font-family: 'Cabin', sans-serif;
+}
+
+.logo-img {
+    height: 40vh;
+    width: 100%;
+}
+
+h1 {
+    font-weight: 600;
+}
+
+.body-text {
+    font-size: 17px
+}
+
+.break {
+    height: 2px;
+    border: 0;
+    background-color: #ffffff;
+}
+
+.map-link,
+.map-link a {
+    text-decoration: none;
+    color: #f8f9fa;
+    transition: all 0.4s ease-in-out;
+    -moz-transition: all 0.4s ease-in-out;
+    -webkit-transition: all 0.4s ease-in-out;
+    -o-transition: all 0.4s ease-in-out;
+}
+
+.map-link {
+    text-decoration: none;
+}
+
+.map-link a:hover,
+.map-link:hover {
+    color: green
+}
+
+
+/* Media Queires */
+
+@media (max-width: 991.98px) {
+    .logo-img {
+        height: 25vh;
+        width: 100%;
+    }
+    .break {
+        width: 175px;
+    }
+}
